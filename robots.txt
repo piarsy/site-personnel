@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://piarsy.github.io/site-personnel/sitemap.xml
