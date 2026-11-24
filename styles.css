@@ -137,6 +137,15 @@ h2 em { display: block; letter-spacing: -.04em; }
 .publication-foot > span:last-child { color: var(--steel); font-size: 25px; }
 .all-publications { display: flex; justify-content: flex-end; }
 .all-publications .text-link { margin-top: 22px; }
+.newsletter-invitation { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 32px 64px; margin-top: 44px; padding-block: 32px; border-top: 1px solid var(--line); }
+.newsletter-copy { max-width: 720px; }
+.newsletter-invitation h3 { margin-top: 14px; color: var(--steel); font-size: clamp(26px, 2.6vw, 36px); line-height: 1.22; letter-spacing: -.035em; }
+.newsletter-description { max-width: 64ch; margin-top: 16px; color: var(--muted); font-size: 16px; }
+.newsletter-action .text-link { margin-top: 0; }
+.newsletter-language { margin-top: 8px; color: var(--muted); font-size: 12px; }
+@media (max-width: 719px) {
+  .newsletter-invitation { grid-template-columns: minmax(0, 1fr); gap: 8px; margin-top: 32px; padding-block: 28px; }
+}
 .career-main { width: min(100% - var(--gutter) * 2, 1040px); padding-block: 32px 70px; }
 .back-link { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; color: var(--muted); font-size: 13px; text-decoration: none; }
 .back-link:hover { text-decoration: underline; }
